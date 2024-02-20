@@ -9,17 +9,122 @@
 </head>
 
 <body>
+    <h2>
+        CALCOLA IL PREZZO DEL TUO BIGLIETTO
+    </h2>
+    <div class="price_calc container">
+        <div class="row">
+            <div class="column">
+                <p>Nome Cognome</p>
+                <input type="text" placeholder="Nome Cognome">
+            </div>
+            <div class="column">
+                <p>Km da Percorrere</p>
+                <!-- km è da collegare a const kmToTravel -->
+                <input type="number" id="km" placeholder="km da percorrere">
+            </div>
+            <div class="column">
+                <p>Fascia d'età</p>
+                <!-- age è da collegare a const ageCostumer -->
+                <!-- DEVE DIVENTARE UN SELECT -->
+                <input type="number" id="age" placeholder="Fascia d'età">
+            </div>
+
+        </div>
+        <div class="row mt_2">
+            <div class="column ">
+                <!-- btn mi deve far vedere quanto spendo inviando così il contenuto che era nei input  -->
+                <button id="btn" onclick=""><strong>Genera</strong></button>
+            </div>
+            <div class="column">
+                <button><strong>Annulla</strong></button>
+            </div>
+
+        </div>
+    </div>
+    <!-- /price_calc -->
+
+    <div class="ticket">
+        IL TUO BIGLIETTO
+    </div>
+    <div class="your_ticket container">
+        <div class="dettaglio">
+            <div><strong>DETTAGLIO PASSEGGERI</strong></div>
+        </div>
+        <div class="row_ticket">
+            <div class="column name_costumer">
+                <div class="name_costumer">
+                    <div class="container_interno">
+                        <div>
+                            <strong>
+                                NOME PASSEGGIERO
+                            </strong>
+                        </div>
+                        <div>
+                            <strong>
+                                trova un modo
+                            </strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="offera">
+
+                <div class="container_interno">
+
+                    <div>
+                        Offerta
+                    </div>
+                    <div>
+                        Biglietto standard
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="carrozza">
+                <div class="container_interno">
+
+                    <div>
+                        Carrozza
+                    </div>
+                    <div>
+                        <!-- numero di una cifra -->
+                    </div>
+                </div>
+            </div>
 
 
-    <!-- km è da collegare a const kmToTravel -->
-    <input type="number" id="km" placeholder="km">
+            <div class="codice_CP">
+                <div class="container_interno">
 
-    <!-- age è da collegare a const ageCostumer -->
-    <input type="number" id="age" placeholder="age">
+                    <div>
+                        Codice CP
+                    </div>
+                    <div>
+                        <!-- numero tra 4 e 5 cifre -->
+                    </div>
+                </div>
+            </div>
 
-    <!-- btn mi deve far vedere quanto spendo inviando così il contenuto che era nei input  -->
-    <button id="btn" onclick="">Ou</button>
 
+            <div class="costo_biglietto">
+                <div class="container_interno">
+
+                    <div>
+                        Costo biglietto
+                    </div>
+                    <div>
+                        <!-- deve darmi valore che ho scelto prima -->
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+    <!-- /your_ticket -->
 
 
 

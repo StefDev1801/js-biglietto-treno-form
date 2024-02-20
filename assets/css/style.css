@@ -1,0 +1,66 @@
+/* color palette */
+:root{
+    --btf-bg-body:#b91450;
+    --btf-bg-name_costumer:#808080;
+    --btf-light: white;
+}
+
+body{
+    background-color: var(--btf-bg-body);
+    width: 1000px;
+    margin: auto;
+    
+}
+
+h2, .ticket{
+    text-align: center;
+    color: var(--btf-light);
+}
+.row{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.container{
+    padding: 1rem;
+}
+.mt_2{
+    margin-top: 2rem;
+}
+
+/* #region price_calc*/
+.price_calc, .your_ticket{
+    background-color: var(--btf-light);
+    width: 800px;
+    margin: auto;
+}
+.price_calc p{
+    color: var(--btf-bg-body);
+    text-align: center;
+}
+/* #endregion */
+
+/* #region your_ticket*/
+.ticket{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+.row_ticket{
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    border-top: 1px solid var(--btf-bg-name_costumer);
+    border-bottom: 1px solid var(--btf-bg-name_costumer);
+
+}
+.name_costumer{
+    background-color: var(--btf-bg-name_costumer);
+}
+.container_interno{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+/* #endregion */
