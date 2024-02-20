@@ -36,7 +36,23 @@ element.addEventListener('click', function() {
      }
 
 });
+//numero carrozza
 
+//I want cancel to delete js 
+/*
+let cancel = document.getElementById('cancel')
+cancel.addEventListener('click', function () {
+     Set.clear() //This is a method not a function
+})
+*/
+
+//I want to show random nubers from 1 to 9
+// console.log(Math.floor(Math.random() * 10));
+// const carriage = document.getElementById('train_carriage');
+
+
+//I want to show random 4 digits numbers
+// console.log(Math.floor(Math.random() * 10000) + 1000);
 
 
 
