@@ -1,6 +1,7 @@
 //- Chiedere chilometri che il passeggiero dovrà percorrere
 // const kmToTravel =  (Number("Quanti chilometri deve percorrere?"));//.getElementById('km')
-let kmToTravel = Number(document.getElementById('km'));
+let kmToTravel = Number(document.getElementById('km'). /*.value? ma non me lo prende */);
+let kmToTravel = document.getElementById ('km').value
 kmToTravel.addEventListner('click')
 
 console.log(kmToTravel);
