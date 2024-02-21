@@ -47,12 +47,16 @@ cancel.addEventListener('click', function () {
 */
 
 //I want to show random nubers from 1 to 9
-// console.log(Math.floor(Math.random() * 10));
-// const carriage = document.getElementById('train_carriage');
+console.log(Math.floor(Math.random() * 10));
+let carrozza  = Math.floor(Math.random() * 10);
+document.querySelector('#train_carriage').innerHTML= carrozza;
 
 
 //I want to show random 4 digits numbers
-// console.log(Math.floor(Math.random() * 10000) + 1000);
+console.log(Math.floor(Math.random() * 10000) + 1000);
+let codice = Math.floor(Math.random() * 10000) + 1000;
+document.querySelector('#codiceCP').innerHTML=  codice;
+
 
 
 
